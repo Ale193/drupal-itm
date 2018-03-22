@@ -1,0 +1,23 @@
+uuid: cacc4c7c-ee6c-4f2b-90b0-dd8e577650ab
+langcode: en
+status: true
+dependencies: {  }
+id: event_creator
+label: 'Event Creator'
+weight: 3
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'access in-place editing'
+  - 'create event content'
+  - 'create url aliases'
+  - 'delete event revisions'
+  - 'delete own article content'
+  - 'delete own event content'
+  - 'delete own page content'
+  - 'edit own article content'
+  - 'edit own event content'
+  - 'edit own page content'
+  - 'use text format editorial_wysiwyg'
+  - 'view own unpublished content'
+  - 'view the administration theme'

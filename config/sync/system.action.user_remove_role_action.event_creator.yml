@@ -1,0 +1,14 @@
+uuid: 994fbe3f-f085-440a-89c3-aca1f3555c71
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.event_creator
+  module:
+    - user
+id: user_remove_role_action.event_creator
+label: 'Remove the Event Creator role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: event_creator
